@@ -1,0 +1,258 @@
+@font-face {
+    font-family: alabama;
+    src: url(../fonts/alabama.ttf);
+}
+body{
+    box-sizing: border-box;
+    background-color: #FFF;
+font-family: 'Crimson Text', serif;}
+nav img{
+    width: 150px;
+    margin:5px 20px;
+}
+
+#navbar{
+    background-color: #000;
+}
+#navbar.bgcolor{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+#navbar #navbarNav {
+    justify-content: center;
+    font-size: 25px;
+}
+#navbar .nav-link{
+    color: #FFF;
+padding: 0 20px;
+    margin-right: 20px;
+    line-height: 86px;
+}
+#navbar .nav-link.only{
+    margin-right:0;    
+}
+#navbar .nav-link:hover{
+    color: #000;
+    background-color: #FFF;
+}
+.mobilelogo{
+    display: none;
+}
+button .btn{
+    color: #FFF;
+    font-size: 20px;
+}
+
+.spacing{
+    background-color: #FFF;
+    margin-bottom: 50px;
+    margin: 20px 20px;
+    background-image: linear-gradient(to right, #ff8080 63%, rgba(255,255,255,0) 0%);
+background-position: bottom;
+background-size: 60px 30px;
+background-repeat: repeat-x;
+}
+
+#photofull{
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0; 
+    left: 0;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#inside{
+    height: 400px;
+    width: 600px;
+    position: relative;
+    margin-top: 130px;
+}
+
+.photo1{
+    background: url(../img/carousel/carousel1.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.photo2{
+    background: url(../img/carousel/carousel2.jpg) center center no-repeat;
+    background-size: cover;
+}
+.photo3{
+    background: url(../img/carousel/carousel3.jpg) center center no-repeat;
+    background-size: cover;
+}
+.photo4{
+    background: url(../img/carousel/carousel4.jpg) center center no-repeat;
+    background-size: cover;
+}
+.photo5{
+    background: url(../img/carousel/carousel5.jpg) center center no-repeat;
+    background-size: cover;
+}
+.photo6{
+    background: url(../img/carousel/carousel6.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#inside button{
+    border: solid 2px;
+    color: #FFF;
+    background-color: transparent;
+    bottom: 10%;
+    left: 42%;
+    position: absolute;
+}
+#inside button.btn:hover{
+    color: #000;
+    background-color: #FFF;
+}
+#inside button.btn:active{
+ border-style: inset;
+}
+body>h1{
+    margin-top: 150px;
+        width: 100%;
+    margin-top: 150px;
+    color:#000;
+    margin-left: 30px;
+    font-family: alabama;
+    letter-spacing: 2px;
+}
+
+#photos{
+    
+}
+#photos h3{
+    text-align: center;
+        color:#000;
+    font-size: 35px;
+    padding: 30px 0;
+    font-family: 'Cabin Sketch', cursive;
+}
+#photos .photocont{
+            padding-bottom: 20px;
+}
+#photos .overflow{
+    overflow: hidden;
+    height: 200px;
+}
+#photos .background{
+transition: all 1.0s;
+height: 200px;
+
+}
+#photos .background:hover{
+    
+    transform: scale(2.0, 2.0)
+}
+#photos .mask{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.6);
+    opacity:0;
+}
+#photos .mask:hover{
+    opacity:1;
+}
+#photos .biggerbtn{
+    text-decoration: none;
+}
+#photos .fa{
+    display: inline-block;
+    opacity:0;
+    text-decoration: none;
+}
+#photos .mask:hover>.fa{
+opacity: 1;
+}
+#photos #photo1{
+    background: url(../img/carousel/gallery1.jpg) center center no-repeat;
+    background-size: cover;
+
+}
+#photos #photo2{
+    background:  url(../img/carousel/gallery2.jpg) center center no-repeat;
+    background-size: cover;
+}
+#photos #photo3{
+    background:  url(../img/carousel/gallery3.jpg) center center no-repeat;
+    background-size: cover;
+}
+#photos #photo4{
+    background:  url(../img/carousel/gallery4.jpg) center center no-repeat;
+    background-size: cover;
+}
+#photos #photo5{
+    background:  url(../img/carousel/gallery5.jpg) center center no-repeat;
+    background-size: cover;
+}
+#photos #photo6{
+    background:  url(../img/carousel/gallery6.jpg) center center no-repeat;
+    background-size: cover;
+}
+#photos #photo7{
+    background:  url(../img/carousel/gallery7.jpg) center center no-repeat;
+    background-size: cover;
+}
+#photos #photo8{
+    background:  url(../img/carousel/gallery8.jpg) center center no-repeat;
+    background-size: cover;
+}
+#photos #photo9{
+    background:  url(../img/carousel/gallery9.jpg) center center no-repeat;
+    background-size: cover;
+}
+#photos #photo10{
+    background:  url(../img/carousel/gallery10.jpg) center center no-repeat;
+    background-size: cover;
+}
+#photos #photo11{
+    background:  url(../img/carousel/gallery11.jpg) center center no-repeat;
+    background-size: cover;
+}
+#photos #photo12{
+    background:  url(../img/carousel/gallery12.jpg) center center no-repeat;
+    background-size: cover;
+}
+#photos #photo13{
+    background:  url(../img/carousel/gallery13.jpg) center center no-repeat;
+    background-size: cover;
+}
+#photos #photo14{
+    background:  url(../img/carousel/gallery14.jpg) center center no-repeat;
+    background-size: cover;
+}
+#photos #photo15{
+    background:  url(../img/carousel/gallery15.jpg) center center no-repeat;
+    background-size: cover;
+}
+#photos #photo16{
+    background:  url(../img/carousel/gallery16.jpg) center center no-repeat;
+    background-size: cover;
+}
+footer{
+    position: relative;
+    background-color: rgba(66, 66, 66, 0.9);
+}
+footer p{
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 56px;
+       color: #FFF;
+    margin-bottom: 0;
+}
+footer i{
+    position: absolute;
+    right:0;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: #FFF
+}

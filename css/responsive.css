@@ -1,0 +1,486 @@
+@media all and (max-width:1200px) {
+    header{
+       height: 100%; 
+    }
+    .carousel-inner .carousel-item img{
+    width: 100%;
+    height: 100vh;
+}
+    #navbar .nav-link{
+                font-size: 23px;
+    }
+    .carousel-inner{
+        width: 100%
+    }
+    #news{
+        margin: 0;
+    }
+    #official{
+        background-size: cover;
+    }
+    #inside{
+        height: 300px;
+        width: 500px;
+        margin-top: 100px;
+    }
+    
+}
+@media all and (max-width:991px) {
+    .logo{
+    display:none;
+    }
+    .formbtn{
+    margin-left: 40%;
+}
+    .carousel-inner .carousel-item img{
+    width: 100%;
+}
+    #news td{
+        text-align: center;
+    }
+    #curtain img{
+        width: 600px;
+    }
+    .mobilelogo{
+        position: absolute;
+        right: 0;
+        width: 100px;
+        display: block;
+    }
+    #navbar .nav-link{
+        line-height: 70px;
+    }
+    .carousel--all{
+        width: 600px;
+    }
+    .carousel--maintitle{
+        font-size: 25px;
+    }
+    .carousel--info p,span{
+    font-size: 25px;
+    }
+    .carousel--date p{
+        line-height: 20px;
+    }
+    .carousel--date p:nth-of-type(even){
+        font-size: 20px;
+    }
+    .carousel--event h1:nth-of-type(1){
+    font-size: 60px;
+        line-height: 60px;
+    }
+    .carousel--event h1:nth-of-type(2){
+        font-size: 44px;
+        line-height: 44px;
+    }
+    .carousel--event p{
+        font-size: 20px;
+        line-height: 10px;
+    }
+    .carousel--chevron{
+        height: 180px;
+    }
+    
+    #partners p{
+        font-size: 15px;
+    }
+    header{
+        margin-top: 100px;
+    }
+    #official{
+        background-size: contain;
+    }
+    #content p:nth-of-type(4){
+        margin-bottom: 60px;
+    }
+}
+@media all and (max-width:768px){
+    
+    #curtain img{
+        width: 500px;
+    }
+    #myCarousel{
+        height: 80vh;
+    }
+    .carousel-inner .carousel-item img{
+        width: 100%;
+        height: 80vh;
+    }
+     .carousel--all{
+        width: 440px;
+    }
+    .carousel--maintitle{
+        font-size: 20px;
+    }
+    .carousel--info p,span{
+    font-size: 20px;
+    }
+    .carousel--date p{
+        line-height: 15px;
+    }
+    .carousel--date p:nth-of-type(even){
+        font-size: 15px;
+    }
+    .carousel--event h1:nth-of-type(1){
+    font-size: 44px;
+        line-height: 44px;
+    }
+    .carousel--event h1:nth-of-type(2){
+        font-size: 33px;
+        line-height: 33px;
+    }
+    .carousel--event p{
+        font-size: 15px;
+        line-height: 5px;
+    }
+    .carousel--chevron{
+        height: 120px;
+    }
+    #about{
+        padding: 30px 20px;
+    }
+    #news #table1{
+        display: none;
+    }
+    #news #table2{
+        display: block;
+    }
+    #news .titles{
+        font-size: 17px;
+        padding-right: 8px;
+    }
+    #inside{
+/*        width: 400px;*/
+        height: 300px;
+        overflow: visible;
+        margin-top: 200px;
+    }
+    #inside button{
+        bottom: -20%;
+    }
+    #plays .container-fluid{
+        height: 500px;
+    }
+    #plays .obrazy{
+     height: 500px;   
+    }
+    #plays .cont .overflow{
+    height: 500px;
+}
+    #plays .cont{
+        height: 500px;
+    }
+    #plays .cont .background{
+        background-size: contain;
+    }
+    #plays .cont .mask p{
+    margin-top: 40%;
+    }
+    #official{
+        background-size: contain
+    }
+    #author{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #author img{
+        margin: 0;
+    }
+    #author p{
+                margin: 0;
+    }
+    #content{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #photos.cont{
+        height: 250px;
+    }
+    #photos .overflow{
+        height: 250px;
+    }
+    #photos .background{
+        height: 250px;
+    }
+    #people .cont{
+        height: 400px;
+    }
+    #people .background{
+                height: 400px;
+    }
+    #author{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .description .obrazy2:nth-of-type(2){
+        order: -1;
+    }
+    #author img{
+        margin-right: 20px;
+    }
+}
+
+@media all and (max-width:767px){
+    #plays .container-fluid{
+        height: 100%;
+    }
+    #plays .obrazy{
+        height: 100%;
+    }
+    #plays .obrazy:nth-of-type(2){
+        display: none;
+    }
+    #plays .cont{
+        height: 400px;
+    }
+    #plays .cont .overflow{
+        padding-top: 0;
+        height: 100%;
+        padding-bottom: 0;
+    }
+    #plays .cont .overflow:nth-of-type(1){
+        padding-bottom: 20px;
+    }
+    #partners .innercontainer{
+        height: 100px;
+    }
+    body>h1{
+        margin-top: 100px;
+    }
+}
+@media all and (max-width:740px){
+    #curtain img{
+        width: 400px;
+    }
+}
+@media all and (max-width:655px){
+    #inner{
+        width: 35em;
+    }
+    #inner img{
+        width: 35em;
+    }
+    .carousel--logo{
+        width:100px; 
+    }
+    #content p:nth-of-type(4){
+        margin-bottom: 10px;
+    }
+}
+@media all and (max-width: 620px){
+    #myCarousel{
+        height: 70vh;
+    }
+    .carousel-inner .carousel-item img{
+        width: 100%;
+        height: 70vh;
+    }
+    #curtain img{
+        width: 350px;
+    }
+    
+}
+@media all and (max-width:570px){
+     #inner{
+        width: 30em;
+    }
+    #inner img{
+        width: 30em;
+    }
+    #about{
+        padding: 5px 20px;
+    }
+    #about .btn-default{
+        margin-left: 42%;
+    }
+    #kulisy h1{
+        font-size: 2rem;
+    }
+    .photo1{
+        background: url(../img/zespol/DSC_1403.JPG) 70% 30% no-repeat;
+        background-size: cover;
+    }
+    .photo2{
+        background: url(../img/zespol/DSC_1378.JPG) 70% 25% no-repeat;
+        background-size: cover;
+    }
+    .photo3{
+        background: url(../img/zespol/DSC_1360.JPG) 70% 25% no-repeat;
+        background-size: cover;
+    }
+    .photo4{
+        background: url(../img/zespol/DSC_1359.JPG) 70% 10% no-repeat;
+        background-size: cover;
+    }
+    .photo5{
+        background: url(../img/zespol/DSC_1332.JPG) 70% 25% no-repeat;
+        background-size: cover;
+    }
+    .photo6{
+        background: url(../img/zespol/DSC_1323.JPG) 70% 30% no-repeat;
+        background-size: cover;
+    }
+    .photo7{
+        background: url(../img/zespol/DSC_1314.JPG) 70% 45% no-repeat;
+        background-size: cover;
+    }
+    .photo10{
+        background: url(../img/zespol/DSC_1268.JPG) 70% 25% no-repeat;
+        background-size: cover;
+    }
+    .photo11{
+        background: url(../img/zespol/DSC_1254.JPG) 70% 35% no-repeat;
+        background-size: cover;
+    }
+    .photo12{
+        background: url(../img/zespol/DSC_1249.JPG) 70% 25% no-repeat;
+        background-size: cover;
+    }
+    .photo14{
+        background: url(../img/zespol/DSC_1210.JPG) 70% 20% no-repeat;
+        background-size: cover;
+    }
+    .photo15{
+        background: url(../img/zespol/DSC_0072.JPG) 70% 30% no-repeat;
+        background-size: cover;
+    }
+    .photo16{
+        background: url(../img/zespol/DSC_0005.JPG) 70% 30% no-repeat;
+        background-size: cover;
+    }
+    .photo18{
+        background: url(../img/zespol/DSC_0560b.JPG) 70% 30% no-repeat;
+        background-size: cover;
+    }
+    .photo19{
+        background: url(../img/zespol/DSC_0557b.JPG) 70% 25% no-repeat;
+        background-size: cover;
+    }
+}
+@media all and (max-width:550px){
+    .heading{
+        height: 100px;
+        width: 150px;
+    }
+    #news h3{
+        padding: 20px 0;
+        font-size: 30px;
+    }
+    #plays h3{
+    padding: 20px 0;
+    font-size: 30px;
+    }
+    #partners h3{
+           padding: 20px 0;
+    font-size: 30px; 
+    }
+}
+@media all and (max-width:500px){
+     #myCarousel{
+        height: 60vh;
+    }
+    .carousel--all{
+        width: 360px;
+    }
+    .carousel-inner .carousel-item img{
+        height: 60vh;
+    }
+    .carousel--date{
+        padding: 10px;
+    }
+    .carousel--event h1:nth-of-type(1){
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .carousel--event h1:nth-of-type(2){
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .carousel--event p{
+        font-size: 12px
+    }
+    .carousel--chevron{
+        height: 100px;
+    }
+    #inner{
+        width: 25em;
+    }
+    #inner img{
+        width: 25em;
+    }
+}
+@media all and (max-width:460px){
+    #myCarousel p{
+        font-size: 12px;
+    }
+    #about h3{
+        font-size: 30px;
+        line-height: 10px;
+    }
+    #about p{
+        font-size: 18px;
+    }
+    #about .btn-default{
+        margin-left: 40%;
+    }
+    #inside{
+        height: 200px;
+    }
+    #plays .cont .overflow{
+    height: 400px;
+}
+    #photos .cont{
+        height: 200px
+    }
+    #photos .overflow{
+        height: 200px;
+    }
+    #photos .background{
+        height: 200px;
+    }
+    #kulisy .overflow{
+        margin: 0;
+    }
+    
+}
+@media all and (max-width:415px){
+     #inner{
+        width: 20em;
+    }
+    #inner img{
+        width: 20em;
+    }
+    .heading{
+        height: 80px;
+        width: 130px;
+    }
+    #news h3{
+        padding: 15px 0;
+        font-size: 25px;
+    }
+    #plays h3{
+        padding: 15px 0;
+        font-size: 25px;
+    }
+    #partners h3{
+        padding: 15px 0;
+        font-size: 25px;
+    }
+    #inner{
+        width: 20em;
+    }
+    #inner img{
+        width: 20em;
+    }
+}
+@media all and (max-width:395px){
+    .carousel--all{
+        width:360px;
+    }
+@media all and (max-width:375px){
+    .carousel--all{
+        width:340px;
+    }
+    
+    
+}

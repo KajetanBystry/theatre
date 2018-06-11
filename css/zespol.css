@@ -1,0 +1,286 @@
+@font-face {
+    font-family: alabama;
+    src: url(../fonts/alabama.ttf);
+}
+body{
+    box-sizing: border-box;
+/*    background-color: rgba(225, 225, 225, 1);*/
+    background-color: #FFF;
+font-family: 'Crimson Text', serif;}
+nav img{
+    width: 150px;
+    margin:5px 20px;
+}
+
+#navbar{
+    background-color: #000;
+}
+#navbar.bgcolor{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+#navbar #navbarNav {
+    justify-content: center;
+    font-size: 25px;
+}
+#navbar .nav-link{
+    color: #FFF;
+padding: 0 20px;
+    margin-right: 20px;
+    line-height: 86px;
+}
+#navbar .nav-link.only{
+    margin-right:0;    
+}
+#navbar .nav-link:hover{
+    color: #000;
+    background-color: #FFF;
+}
+.mobilelogo{
+    display: none;
+}
+button .btn{
+    color: #FFF;
+    font-size: 20px;
+}
+
+.spacing{
+background-color: #FFF;
+    margin-bottom: 50px;
+    margin: 20px 20px;
+    background-image: linear-gradient(to right, #ff8080 63%, rgba(255,255,255,0) 0%);
+background-position: bottom;
+background-size: 60px 30px;
+background-repeat: repeat-x;
+}
+body>h1{
+    margin-top: 150px;
+    margin-top: 150px;
+    color:#000;
+    margin-left: 30px;
+    font-family: alabama;
+    letter-spacing: 2px;
+}
+.clicker{
+    cursor: default;
+}
+#expand{
+     background: linear-gradient(#000 0%, #FFF 40%, black 100%);
+}
+#expand .container{
+    height: 100%;
+}
+#expand #contexp{
+/*    height: 100%;*/
+/*    text-align: center;*/
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px 0;
+    overflow: hidden;
+      padding: 100px 0px;
+    padding-right: 150px;
+}
+#expand #contexp img{
+    height: 300px;
+    border: solid 5px;
+    border-color: gray;
+    border-style: outset;
+    
+}
+#expand #contexp p{
+    font-size: 18px;
+}
+#people{
+    color: #FFF;
+    margin-bottom: 50px;
+}
+
+.overflow{
+    width: 100%;
+    overflow:hidden;
+    padding-bottom: 20px;
+}
+.cont{
+    height: 200px;
+}
+.background{
+    height: 200px;
+}
+.photo1{
+background: url(../img/zespol/DSC_1403.JPG) center no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.photo2{
+    background: url(../img/zespol/DSC_1378.JPG) 40% 40% no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.photo3{
+    background: url(../img/zespol/DSC_1360.JPG)  40% 40% no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.photo4{
+    background: url(../img/zespol/DSC_1359.JPG)  40% 20% no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.photo5{
+    background: url(../img/zespol/DSC_1332.JPG)  40% 40% no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.photo6{
+    background: url(../img/zespol/DSC_1323.JPG)  40% 40% no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.photo7{
+    background: url(../img/zespol/DSC_1314.JPG)  center no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.photo8{
+    background: url(../img/zespol/DSC_1303.JPG)  40% 20% no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.photo9{
+    background: url(../img/zespol/DSC_1279.JPG)  40% 40% no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.photo10{
+    background: url(../img/zespol/DSC_1268.JPG)  40% 40% no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.photo11{
+    background: url(../img/zespol/DSC_1254.JPG)  center no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.photo12{
+    background: url(../img/zespol/DSC_1249.JPG)  40% 40% no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.photo13{
+    background: url(../img/zespol/DSC_1226.JPG)  40% 20% no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.photo14{
+    background: url(../img/zespol/DSC_1210.JPG)  40% 30% no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.photo15{
+    background: url(../img/zespol/DSC_0072.JPG)  center no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.photo16{
+    background: url(../img/zespol/DSC_0005.JPG)  40% 40% no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.photo17{
+    background: url(../img/zespol/dariusz.jpg)  40% 15% no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.photo18{
+    background: url(../img/zespol/DSC_0560b.JPG)  40% 40% no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.photo19{
+    background: url(../img/zespol/DSC_0557b.jpg)  40% 40% no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.photo20{
+    background: url(../img/zespol/DSC_0407b.jpg)  40% 40% no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.photo21{
+    background: url(../img/zespol/DSC_0544b.jpg)  40% 0% no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+#people a{
+    text-decoration: none;
+    color: #fff;
+}
+#people .mask{
+    background-color: rgba(0,0,0,0.6);
+    height: 100%;
+    opacity:0;
+}
+#people .mask:hover{
+opacity:1;
+}
+#people .mask p{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+#people .mask p span{
+    background-color: #000;
+    border: 1px solid transparent;
+    border-radius: 20%;
+    padding: 3px 3px;    
+}
+#people .mask p span:hover{
+        border-color: #FFF;
+    color: #FFF;
+    background-color: #000;
+}
+.contentbox{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    position: relative;
+    background-color: rgba(66, 66, 66, 0.9);
+}
+footer p{
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 56px;
+    color: #FFF;
+    margin-bottom: 0;
+}
+footer i{
+    position: absolute;
+    right:0;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: #FFF
+}
